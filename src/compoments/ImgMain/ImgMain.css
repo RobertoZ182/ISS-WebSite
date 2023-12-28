@@ -39,6 +39,9 @@
         font-size: 40px;
     }
     .undertitle{
-        font-size: 20px;
+        font-size: 15px;
+    }
+    .flexCard:nth-of-type(2){
+        height: 310px;
     }
 }

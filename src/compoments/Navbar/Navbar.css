@@ -125,7 +125,7 @@ header .contact div a:hover {
     align-items: center;
     background-color: #5271ff;
     color: white;
-    padding: 0 20px;
+    padding: 100px 20px;
     position: fixed;
     top:60%;
     right: -320px;
@@ -152,7 +152,6 @@ header .contact div a:hover {
     width: 300px;
     height: 40vh;
     z-index: -1;
-    box-shadow: 0 40px 60px rgba(0,0,0,0.1);
     padding: 40px 10px;
     transition: 0.3s ease-in-out;
   }
