@@ -1,0 +1,44 @@
+.imgContainer{
+    width: 100%;
+    position: relative;
+    margin-top: 170px;
+}
+
+.mainImg{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    filter: brightness(40%)
+}
+.title{
+    position: absolute;
+    top: 10%;
+    color: white;
+    left: 10%;
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 4rem;
+}
+.undertitle{
+    position: absolute;
+    top: 50%;
+    color: white;
+    left: 5%;
+    font-family: "Lora", Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+@media only screen and (max-width: 760px){
+    .imgContainer{
+        margin-top: 100px;
+        width: 100vw;
+    }
+    .overimg2{
+        font-size: 15px;
+    }
+    .title{
+        font-size: 40px;
+    }
+    .undertitle{
+        font-size: 20px;
+    }
+}

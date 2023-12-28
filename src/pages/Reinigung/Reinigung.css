@@ -1,0 +1,46 @@
+.reinMain{
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.reinMain aside{
+  padding: 1 rem;
+}
+.reinMain aside img{
+    width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.reinInfo .leistungstitle{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+.reinInfo .leistungssubtitle{
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: italic;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.reinInfo p, .reinInfo ul li{
+    text-indent: 1.5rem;
+    width: 80%;
+    margin: 1.5rem auto;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    color: navy
+}
+
+@media only screen and (max-width: 760px){
+    .reinMain{
+        margin-top: 110px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

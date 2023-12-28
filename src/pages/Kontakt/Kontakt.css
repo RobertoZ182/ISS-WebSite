@@ -1,0 +1,60 @@
+.kontaktpage{
+    margin-top: 180px;
+}
+.line {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid #5271ff;
+    margin: 3rem auto;
+    padding: 0;
+    width: 40%;
+}
+
+.kontaktTitle{
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.smalltext {
+    background: transparent;
+    width: 80%;
+    margin: 3rem auto;
+    padding: 0.5rem;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: navy;
+    font-size: 1.2rem;
+    text-indent: 1rem;
+    font-family: 'Raleway';
+}
+.kontaktWrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.kontaktData div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.kontaktData div .indic{
+    color:#5271ff;
+}
+
+@media only screen and (max-width: 760px){
+    .kontaktWrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-self: center;
+        align-items: center;
+        gap: 80px;
+    }
+    .kontaktpage{
+        margin-top: 110px;
+    }
+}

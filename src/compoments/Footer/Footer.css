@@ -1,0 +1,56 @@
+.footer{
+    background-color: #5271ff;
+    margin-top: 4rem;
+    margin-bottom: 0;
+    padding: 10px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.footerWrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footerCard{
+    width: 30%;
+    text-align: center;
+}
+.second p{
+    text-align: left;
+}
+.second div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+.rechte{
+    text-align: center;
+}
+
+.impr{
+    text-decoration: none;
+    color: white;
+}
+
+.impr:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 760px){
+    .footer{
+        font-size: 12px;
+    }
+    .footIcon{
+        width: 24px;
+        height: 24px;
+    }
+    .footerWrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 40px;
+    }
+}

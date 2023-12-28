@@ -1,0 +1,44 @@
+.mainWinter{
+    margin-top: 180px;
+    display: flex;
+    width: 100%;
+}
+.winterInfo p{
+    text-indent: 1.5rem;
+    width: 80%;
+    margin: 1.5rem auto;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    color: navy
+}
+.winterInfo .leistungstitle{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    font-style: italic;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+.winterInfo .leistungssubtitle{
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+.mainWinter aside{
+    padding: 1rem;
+
+}
+.mainWinter aside img{
+    width: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 760px){
+    .mainWinter{
+        margin-top: 110px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

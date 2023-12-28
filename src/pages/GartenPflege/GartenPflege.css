@@ -1,0 +1,44 @@
+.mainGarten{
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainGarten aside{
+    padding: 1rem;
+
+}
+.mainGarten aside img{
+    width: 100%;
+    object-fit: cover;
+}
+.gartenInfo .leistungstitle{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    font-style: italic;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+.gartenInfo .leistungssubtitle{
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+.gartenInfo p, .gartenInfo ul li{
+    text-indent: 1.5rem;
+    width: 80%;
+    margin: 1.5rem auto;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    color: navy
+}
+@media only screen and (max-width: 760px){
+    .mainGarten{
+        margin-top: 110px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
