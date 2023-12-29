@@ -15,6 +15,7 @@ const LocList = () => {
                 <p><MdLocationPin className="locInd"/>Friedrichshain</p>
                 <p><MdLocationPin className="locInd"/>Lichtenberg</p>
                 <p><MdLocationPin className="locInd"/>Marzahn</p>
+                <p><MdLocationPin className="locInd"/>Wannsee</p>
             </div>
             <div className="card">
                 <p><MdLocationPin className="locInd"/>Prenzlauer Berg</p>

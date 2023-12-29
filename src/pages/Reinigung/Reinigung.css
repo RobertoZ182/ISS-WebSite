@@ -17,7 +17,9 @@
     font-size: 2.5rem;
     text-align: center;
     font-style: italic;
-    margin-bottom: 1.5rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 0;
 }
 
 .reinInfo .leistungssubtitle{
@@ -26,7 +28,6 @@
     text-align: center;
     font-style: italic;
     margin: 0 auto;
-    margin-bottom: 2rem;
 }
 
 .reinInfo p, .reinInfo ul li{
@@ -35,6 +36,11 @@
     margin: 1.5rem auto;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     color: navy
+}
+
+.reinInfo ul li{
+    font-weight: bold;
+    font-style: italic;
 }
 
 @media only screen and (max-width: 760px){

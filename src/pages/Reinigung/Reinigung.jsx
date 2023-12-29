@@ -2,12 +2,14 @@ import React from "react";
 import "./Reinigung.css";
 import picture1 from '../../images/iStock-949219872 Reinigung.jpg'
 import picture2 from '../../images/Reinigung.jpg';
+import Carousel from '../../compoments/Carousel/Carousel.jsx';
 const Reinigung = () => {
+    const imgs = [{image: picture1},{image: picture2}]
     return (
         <div className="reinMain">
             <section className="reinInfo">
                 <h1 className="leistungstitle">Reinigung</h1>
-                <h1 className="leistungssubtitle">Ihrem zuverlässigen Partner für professionelle Reinigungsdienstleistungen!</h1>
+                <h1 className="leistungssubtitle">Ihr zuverlässiger Partner für professionelle Reinigungsdienstleistungen!</h1>
                 <hr className="line" />
                 <p>Egal, ob es um die Reinigung von Büros, Geschäftsräumen, Wohnungen, Häusern oder anderen Objekten geht – unsere erfahrenen Fachleute verfügen über das notwendige Know-how, um die individuellen Anforderungen unserer Kunden zu erfüllen.</p>
                 <p>Unser breites Spektrum an Reinigungsdiensten umfasst nicht nur die Standardreinigung, sondern auch spezielle Dienstleistungen, die auf Ihre besonderen Bedürfnisse zugeschnitten sind. Wir verstehen, dass jeder Kunde einzigartig ist und unterschiedliche Ansprüche an die Reinigung stellt. Daher bieten wir maßgeschneiderte Lösungen an, um sicherzustellen, dass Ihre Räumlichkeiten stets makellos sauber sind.</p>
@@ -28,14 +30,7 @@ const Reinigung = () => {
                     <li>Treppenhausreinigung.</li>
                 </ul>
             </section>
-            <aside >
-
-                <img src={picture1} alt="firstpic" />
-
-                <img src={picture2} alt="secpic" />
-
-
-            </aside>
+            <Carousel images={imgs} />
         </div>
     )
 }

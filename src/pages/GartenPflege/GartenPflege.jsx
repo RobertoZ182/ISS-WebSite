@@ -2,7 +2,9 @@ import React from "react";
 import "./GartenPflege.css";
 import picture1 from '../../images/iStock-926167004 Gartenpflege.jpg'
 import picture2 from '../../images/iStock-1360846829 Gartenpflege.jpg'
+import Carousel from "../../compoments/Carousel/Carousel";
 const GartenPflege = () => {
+    const imgs = [{image: picture1},{image: picture2}]
     return (
         <div className="mainGarten">
             <section className="gartenInfo">
@@ -22,10 +24,7 @@ const GartenPflege = () => {
                 </ul>
                 <p>Mit unserer langjährigen Erfahrung bringen wir nicht nur Pflanzen, sondern auch Ihren Garten zum Strahlen. Vertrauen Sie auf unsere Gartenexperten, um Ihren grünen Raum in eine Oase der Entspannung und Schönheit zu verwandeln. Kontaktieren Sie uns, um gemeinsam die perfekte Pflegelösung für Ihren Garten zu finden.</p>
             </section>
-            <aside>
-                <img src={picture1} alt="firstpic" loading="lazy" />
-                <img src={picture2} alt="secpic" loading="lazy" />
-            </aside>
+            <Carousel images={imgs} />
         </div>
     )
 }

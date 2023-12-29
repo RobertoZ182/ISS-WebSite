@@ -6,7 +6,7 @@ const ImgMain = () => {
         <div className="imgContainer">
             <img src={image} className="mainImg" alt="mainimg" />
             <h1 className="title">I.S.S. Winterdienst UG</h1>
-            <p className="undertitle">Herzlich willkommen bei I. S. S. Winterdienst UG – Ihrem zuverlässigen Partner für erstklassigen Winterdienst, professionelle Reinigung und leidenschaftliche Gartenpflege!</p>
+            <p className="undertitle">Herzlich willkommen bei I. S. S. Winterdienst UG – Ihr zuverlässiger Partner für erstklassigen Winterdienst, professionelle Reinigung und leidenschaftliche Gartenpflege!</p>
         </div>
     )
 }

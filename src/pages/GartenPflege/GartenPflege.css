@@ -35,6 +35,11 @@
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     color: navy
 }
+
+.gartenInfo ul li{
+    font-weight: bold;
+    font-style: italic;
+}
 @media only screen and (max-width: 760px){
     .mainGarten{
         margin-top: 110px;
