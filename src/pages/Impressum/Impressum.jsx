@@ -8,10 +8,8 @@ const Impressum = () => {
                 <hr className="line" />
                 <div className="impressCard">                
                     <h3>Angaben gemäß § 5 TMG</h3>
-                    <p>I. S. S. Winterdienst UG (haftungsbeschränkt)
-                        Potsdamer Platz 10, Haus 2
-                        10785 Berlin
-                    </p>
+                    <p>I. S. S. Winterdienst UG (haftungsbeschränkt)</p>
+                    <p>Potsdamer Platz 10, Haus 2 10785 Berlin</p>
                 </div>
 
                 <div className="impressCard">
